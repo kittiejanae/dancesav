@@ -16,6 +16,7 @@ const DropdownContainer = styled.div`
   justify-content: center;
   top: 0;
   left: 0;
+  overflow: visible;
   transition: 0.3s ease-in-out;
   opacity: ${({ isOpen }) => (isOpen ? "1" : "0")};
   top: ${({ isOpen }) => (isOpen ? "0" : "-100%")};
@@ -41,7 +42,7 @@ const DropdownMenu = styled.div`
   grid-template-columns: 1fr;
   grid-template-rows: repeat(4, 80px);
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 0;
 `;
 
 const DropdownLink = styled(Link)`
@@ -63,7 +64,9 @@ const DropdownLink = styled(Link)`
   }
 `;
 
-const BtnWrap = styled.div``;
+const BtnWrap = styled.div`
+  margin-top: -2vw;
+`;
 
 const Dropdown = ({ isOpen, toggle }) => {
   return (
