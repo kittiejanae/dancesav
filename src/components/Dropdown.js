@@ -24,7 +24,7 @@ const DropdownContainer = styled.div`
 const Icon = styled.div`
   position: absolute;
   top: 1.2rem;
-  left: 40vw;
+  left: 80vw;
   background: transparent;
   font-size: 2rem;
   cursor: pointer;
@@ -32,7 +32,9 @@ const Icon = styled.div`
 `;
 const CloseIcon = styled(FaTimes)``;
 
-const DropdownWrapper = styled.div``;
+const DropdownWrapper = styled.div`
+  margin-top: 10vw;
+`;
 
 const DropdownMenu = styled.div`
   display: grid;
