@@ -100,7 +100,7 @@ const Arrow = styled(IoMdArrowRoundForward)``;
 const SliderButtons = styled.div`
   position: absolute;
   bottom: 70px;
-  right: -8vw;
+  right: 0;
   display: flex;
   z-index: 10;
 `;

@@ -17,13 +17,20 @@ export const Container = styled.div`
   border-bottom: 4px solid #efe337;
   padding: 3rem 2rem;
   position: relative;
+  overflow-y: hidden;
 `;
 
 export const Wrap = styled.div`
   max-width: 1200px;
+  height: 24vw;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
+  overflow: visible;
+
+  @media screen and (max-width: 768px) {
+    height: 40vw;
+  }
 `;
 
 export const ColumnL = styled.div`
@@ -32,22 +39,32 @@ export const ColumnL = styled.div`
   margin: 0px -15px;
   justify-content: flex-start;
   padding: 1rem;
+  overflow-y: hidden;
+
   // width: 60%;
   // height: 30vw;
 
   @media screen and (max-width: 768px) {
-    width: 45%;
+    justify-content: center;
+    flex-wrap: none;
+    width: 80%;
+    height: 90vw;
+    padding: 0;
+    margin: 0;
+    margin-top: -8vw;
   }
 `;
 
 export const Content = styled.div`
-  flex: 0 0 70%;
+  flex: 0 0 50%;
   height: 100%;
+  overflow: visible;
 
   h1 {
     color: #efe337;
     margin-bottom: 2rem;
     font-size: 2rem;
+    paddingL 2vw;
   }
 
   p {
@@ -57,9 +74,10 @@ export const Content = styled.div`
   }
 
   @media screen and (max-width: 768px) {
-    flex: 0 0 100%;
-    max-width: 100%;
-    margin-top: 250px;
+    flex: 0 0 140%;
+    width: 100vw;
+    height: 60vw;
+    margin-top: 0;
   }
 `;
 
@@ -77,20 +95,20 @@ export const ColumnR = styled.div`
 
   @media screen and (max-width: 768px) {
     height: 115%;
-    top: -50px;
-    width: 50%;
+    top: -30px;
+    width: 30%;
     margin: 0 auto;
-    left: 30vw;
+    left: 70vw;
   }
 `;
 
 export const Image = styled.img`
-  height: 70%;
+  height: 45%;
   width: auto;
   object-fit: cover;
 
   @media screen and (max-width: 768px) {
-    height: 70%;
+    height: 50%;
   }
 `;
 
