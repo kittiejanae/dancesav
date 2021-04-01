@@ -42,14 +42,14 @@ function App() {
           path="/directions"
           component={() => {
             window.location =
-              "https://www.google.com/maps/dir/31.9904574,-81.1526968/Dance+Savannah:+All-Star+Dance+Team,+14045+Abercorn+St+Suite+1526,+Savannah,+GA+31419/@31.986467,-81.1719082,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x88fb0b36fab79951:0xf1affafdf0e299f1!2m2!1d-81.1726396!2d31.9843158";
+              "www.google.com/maps/dir/31.9904574,-81.1526968/Dance+Savannah:+All-Star+Dance+Team,+14045+Abercorn+St+Suite+1526,+Savannah,+GA+31419/@31.986467,-81.1719082,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x88fb0b36fab79951:0xf1affafdf0e299f1!2m2!1d-81.1726396!2d31.9843158";
             return null;
           }}
         />
         <Route
           path="/schedule"
           component={() => {
-            window.location = "https://dance-savannah.square.site";
+            window.location = "www.dance-savannah.square.site";
             return null;
           }}
         />
