@@ -6,6 +6,7 @@ const Section = styled.section`
   width: 100%;
   height: 100%;
   padding: 0;
+  background: black;
 `;
 
 const Container = styled.div`
@@ -38,6 +39,7 @@ const ColumnL = styled.section`
 
   p {
     margin-bottom: 2rem;
+    color: white;
   }
 `;
 
@@ -89,7 +91,7 @@ const InfoSection = ({
           <h1>{heading}</h1>
           <p>{pOne}</p>
           <p>{pTwo}</p>
-          <Button to={link} target={target}>
+          <Button to={link} target={target} primary="true">
             {buttonLabel}
           </Button>
         </ColumnL>

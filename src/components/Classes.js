@@ -4,7 +4,7 @@ import ImageOne from "../images/busybee.svg";
 import { Button } from "./Button";
 
 export const Section = styled.section`
-  background: black;
+  background: #efe337;
   padding: 12rem 0rem;
   display: flex;
   flex-direction: column;
@@ -12,9 +12,9 @@ export const Section = styled.section`
 `;
 
 export const Container = styled.div`
-  background: black;
-  border-top: 4px solid #efe337;
-  border-bottom: 4px solid #efe337;
+  background: white;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
   padding: 3rem 2rem;
   position: relative;
   overflow-y: hidden;
@@ -61,14 +61,14 @@ export const Content = styled.div`
   overflow: visible;
 
   h1 {
-    color: #efe337;
+    color: black;
     margin-bottom: 2rem;
     font-size: 2rem;
     paddingL 2vw;
   }
 
   p {
-    color: #efe337;
+    color: black;
     margin-bottom: 1rem;
     line-height: 1.5;
   }
@@ -130,7 +130,7 @@ const Classes = () => {
                 We offer Ballet, Jazz, Tumbling, Stretching & Conditioning, and
                 Hip Hop dance classes for children from ages 4-17.
               </p>
-              <Button primary="true" target="_blank" to="/schedule">
+              <Button target="_blank" to="/schedule">
                 See Full Schedule
               </Button>
             </Content>

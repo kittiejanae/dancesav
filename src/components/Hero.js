@@ -47,10 +47,10 @@ const HeroSlider = styled.div`
     overflow: hidden;
     opacity: 0.4;
     background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.2) 0%,
-      rgba(0, 0, 0, 0.2) 50%,
-      rgba(0, 0, 0, 0.2) 100%
+      4deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(0, 0, 0, 1) 50%,
+      rgba(0, 0, 0, 1) 100%
     );
   }
 `;
@@ -190,21 +190,25 @@ const Hero = ({ slides }) => {
                     exit="exit"
                     variants={fadeAnimation}
                   />
-                  <HeroContent data-aos="fade-down" data-aos-duration="600">
-                    <h1 data-aos="fade-down" data-aos-duration="600">
+                  <HeroContent data-aos="fade-right" data-aos-duration="600">
+                    <h1
+                      data-aos="fade-down"
+                      data-aos-duration="600"
+                      data-aos-delay="250"
+                    >
                       {slide.title}
                     </h1>
                     <p
                       data-aos="fade-down"
                       data-aos-duration="500"
-                      data-aos-delay="250"
+                      data-aos-delay="350"
                     >
                       {slide.text}
                     </p>
                     <Button
                       data-aos="zoom-out"
                       data-aos-duration="600"
-                      data-aos-delay="200"
+                      data-aos-delay="300"
                       to={slide.path}
                       primary="true"
                       css={`

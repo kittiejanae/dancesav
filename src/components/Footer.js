@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import { FaInstagram, FaFacebookF } from "react-icons/fa";
 
 const Section = styled.section`
-  background: black;
+  background: #efe337;
   color: white;
   width: 100%;
   min-height: 600px;
@@ -35,7 +35,7 @@ const Quote = styled.div`
 
   h3 {
     font-size: clamp(2rem, 8vw, 5rem);
-    color: #efe337;
+    color: black;
   }
 `;
 const FooterInfo = styled.div`
@@ -48,20 +48,20 @@ const FooterInfo = styled.div`
   flex-direction: column;
 
   a {
-    color: white;
+    color: black;
     text-decoration: none;
 
     &:hover {
-      color: #efe337;
+      color: white;
     }
   }
 
   h4 {
-    color: #efe337;
+    color: black;
   }
 
   p {
-    color: white;
+    color: black;
   }
 
   @media screen and (max-width: 768px) {
@@ -93,7 +93,7 @@ const SocialIcons = styled.div`
 const Icons = css`
   font-size: clamp(1rem, 6vw, 2rem);
   margin-right: 2vw;
-  color: #efe337;
+  color: black;
 
   &:hover {
     transform: scale(1.06);
@@ -148,7 +148,7 @@ const Footer = () => {
               <Instagram />
             </Link>
             <BookNow>
-              <Button primary="true" to="/schedule" target="_blank">
+              <Button to="/schedule" target="_blank">
                 Book A Class Today
                 <IoMdArrowRoundForward />
               </Button>

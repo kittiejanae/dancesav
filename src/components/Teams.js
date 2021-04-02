@@ -16,6 +16,7 @@ const Section = styled.section`
   justify-content: flex-start;
   align-items: flex-start;
   overflow-y: hidden;
+  background: black;
 
   @media screen and (max-width: 768px) {
     padding: 0rem 4rem;
@@ -72,6 +73,11 @@ const InfoWrap = styled.div`
   h2 {
     margin-bottom: 1rem;
     font-weight: 400;
+    color: white;
+  }
+
+  p {
+    color: white;
   }
 `;
 
