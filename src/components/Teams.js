@@ -164,11 +164,11 @@ const Teams = ({ image, name, ages }) => {
             data-aos-once="true"
             data-aos-anchor-placement="center-bottom"
           >
-            <Image src={teamThree} alt="Wild Honey" />
-            <h2>Wild Honey - Variety</h2>
+            <Image src={teamThree} alt="Bumble Bees" />
+            <h2>Bumble Bees - Hip Hop</h2>
             <InfoText>
               <Icon src={bee} alt="bee icon" />
-              <p>8-12 yrs old</p>
+              <p>7-10 yrs old</p>
             </InfoText>
           </InfoWrap>
         </InfoRow>
@@ -181,7 +181,7 @@ const Teams = ({ image, name, ages }) => {
           >
             <Image
               src={teamFour}
-              alt="Honey Bees"
+              alt="Wild Honey"
               css={`
                 margin-top: -80px;
                 @media screen and (max-width: 768px) {
@@ -189,10 +189,10 @@ const Teams = ({ image, name, ages }) => {
                 }
               `}
             />
-            <h2>Honey Bees - Hip Hop</h2>
+            <h2>Wild Honey - Variety</h2>
             <InfoText>
               <Icon src={bee} alt="bee icon" />
-              <p>12-16 yrs old</p>
+              <p>8-12 yrs old</p>
             </InfoText>
           </InfoWrap>
           <InfoWrap
