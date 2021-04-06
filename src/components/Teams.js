@@ -164,7 +164,7 @@ const Teams = ({ image, name, ages }) => {
             data-aos-once="true"
             data-aos-anchor-placement="center-bottom"
           >
-            <Image src={teamThree} alt="Bumble Bees" />
+            <Image src={teamFour} alt="Bumble Bees" />
             <h2>Bumble Bees - Hip Hop</h2>
             <InfoText>
               <Icon src={bee} alt="bee icon" />
@@ -180,7 +180,7 @@ const Teams = ({ image, name, ages }) => {
             data-aos-anchor-placement="center-bottom"
           >
             <Image
-              src={teamFour}
+              src={teamThree}
               alt="Wild Honey"
               css={`
                 margin-top: -80px;
