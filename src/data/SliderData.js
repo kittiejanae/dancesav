@@ -1,6 +1,6 @@
-import ImageOne from "../images/DS17.jpg";
-import ImageTwo from "../images/DS18.jpg";
-import ImageThree from "../images/DS19.jpg";
+import ImageOne from "../images/DS17.JPG";
+import ImageTwo from "../images/DS18.JPG";
+import ImageThree from "../images/DS19.JPG";
 
 export const SliderData = [
   {
