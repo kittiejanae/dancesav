@@ -57,7 +57,7 @@ function App() {
           path="/register"
           component={() => {
             window.location =
-              "https://dance-savannah.square.site/classes#:~:text=17%20and%20up.-,Registration%20Form,-Registration%20Form%20is";
+              "https://dance-savannah.square.site/23-24-tryouts-and-team";
             return null;
           }}
         />

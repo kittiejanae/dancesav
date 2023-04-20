@@ -1,5 +1,5 @@
-import ImageOne from "../images/DS17.JPG";
-import ImageTwo from "../images/DS25.JPG";
+import ImageOne from "../images/DS28.JPG";
+import ImageTwo from "../images/DS26.JPG";
 import ImageThree from "../images/DS24.JPG";
 import ImageFour from "../images/DS18.JPG";
 
@@ -30,7 +30,7 @@ export const SliderData = [
   },
   {
     title: "All-Star Teams",
-    label: "Register Today",
+    label: "Try Out for the Team",
     text: "All-Star Dance is a competitive, team-based sport focused on six types of dances (Hip Hop, Jazz, Kick, Pom, Lyrical, and Contemporary) in six different age groups (Try, Mini, Youth, Junior, Senior, and Open). It is governed by the United States All Stars Federation (USASF).",
     path: "/register",
     image: ImageFour,
