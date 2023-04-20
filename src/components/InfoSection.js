@@ -70,6 +70,7 @@ const InfoSection = ({
   heading,
   pOne,
   pTwo,
+  pThree,
   reverse,
   image,
   buttonLabel,
@@ -91,6 +92,7 @@ const InfoSection = ({
           <h1>{heading}</h1>
           <p>{pOne}</p>
           <p>{pTwo}</p>
+          <p>{pThree}</p>
           <Button to={link} target={target} primary="true">
             {buttonLabel}
           </Button>

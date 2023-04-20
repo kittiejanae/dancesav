@@ -42,14 +42,22 @@ function App() {
           path="/directions"
           component={() => {
             window.location =
-              "https://www.google.com/maps/dir/31.9904574,-81.1526968/Dance+Savannah:+All-Star+Dance+Team,+14045+Abercorn+St+Suite+1526,+Savannah,+GA+31419/@31.986467,-81.1719082,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x88fb0b36fab79951:0xf1affafdf0e299f1!2m2!1d-81.1726396!2d31.9843158";
+              "https://www.google.com/maps/place/Dance+Savannah:+All-Star+Dance+Team/@32.0069873,-81.1356064,15z/data=!3m1!5s0x88fb0b3704919b4d:0x7edf0a3a2b34491c!4m10!1m2!2m1!1sDance+Savannah!3m6!1s0x88fb0b36fab79951:0xf1affafdf0e299f1!8m2!3d32.0069873!4d-81.117582!15sCg5EYW5jZSBTYXZhbm5haFoQIg5kYW5jZSBzYXZhbm5haJIBDGRhbmNlX3NjaG9vbJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VOQ2RrMVRSbGRCRUFF4AEA!16s%2Fg%2F11d_trxwtn";
             return null;
           }}
         />
         <Route
           path="/schedule"
           component={() => {
-            window.location = "https://dance-savannah.square.site";
+            window.location = "https://dance-savannah.square.site/classes";
+            return null;
+          }}
+        />
+        <Route
+          path="/register"
+          component={() => {
+            window.location =
+              "https://dance-savannah.square.site/classes#:~:text=17%20and%20up.-,Registration%20Form,-Registration%20Form%20is";
             return null;
           }}
         />
@@ -66,6 +74,14 @@ function App() {
           component={() => {
             window.location =
               "https://www.instagram.com/dancesavannah912/?hl=en";
+            return null;
+          }}
+        />
+        <Route
+          path="/youtube"
+          component={() => {
+            window.location =
+              "https://www.youtube.com/channel/UC6QKBJyuQg0XmzbMe-KFKHQ?app=desktop";
             return null;
           }}
         />

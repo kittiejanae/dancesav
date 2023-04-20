@@ -125,13 +125,16 @@ const Classes = () => {
               data-aos-once="true"
               data-aos-anchor-placement="center-bottom"
             >
-              <h1>Classes</h1>
+              <h1>
+                Classes <i>(ages 3+)</i>
+              </h1>
               <p>
-                We offer Ballet, Jazz, Tumbling, Stretching & Conditioning, and
-                Hip Hop dance classes for children from ages 4-17.
+                We offer Ballet, Jazz, Tumbling, Aerial Class, Kids Hip Hop,
+                Teen/Adult Hip Hop, Creative Movement, Princess Ballerina, Adult
+                Stretch, Adult Tumbling, Adult Ballet, and Adult Jazz.
               </p>
               <Button target="_blank" to="/schedule">
-                See Full Schedule
+                See Full Schedule & Pricing
               </Button>
             </Content>
           </ColumnL>

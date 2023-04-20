@@ -1,7 +1,7 @@
-import ImageOne from "../images/DS4.jpg";
+import ImageOne from "../images/Baebees.JPG";
 
 export const teamsData = [
-  { name: "Busy Bees - Jazz", ages: "4-6 yrs old", image: ImageOne },
+  { name: "Baebees", ages: "Tiny Prep Variety - Competition", image: ImageOne },
   { name: "Pollinators - Hip Hop", ages: "7-10 yrs old", image: ImageOne },
   { name: "Wild Honey - Variety", ages: "8-12 yrs old", image: ImageOne },
   { name: "Honey Bees - Hip Hop", ages: "12-16 yrs old", image: ImageOne },

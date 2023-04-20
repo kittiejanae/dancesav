@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components/macro";
 import bee from "../images/bee.svg";
-import teamOne from "../images/DS4.jpg";
-import teamTwo from "../images/DS15.jpg";
-import teamThree from "../images/DS12.jpg";
-import teamFour from "../images/DS16.jpg";
-import teamFive from "../images/DS5.jpg";
+import teamOne from "../images/Baebees.JPG";
+import teamTwo from "../images/Barbees.JPG";
+import teamThree from "../images/Pollinators.JPG";
+import teamFour from "../images/HoneyBees.JPG";
+import teamFive from "../images/VIBees.JPG";
 import teamSix from "../images/DS11.jpg";
 
 const Section = styled.section`
@@ -96,16 +96,16 @@ const Image = styled.img`
 const InfoText = styled.div`
   display: flex;
   align-items: center;
-  width: 160px;
+  width: 280px;
   flex-direction: row;
   margin-bottom: 0;
   padding-bottom: 0;
 `;
 
 const Icon = styled.img`
-  width: 20%;
+  width: 10%;
   height: auto;
-  margin-right: 2vw;
+  margin-right: 1vw;
 `;
 
 const Teams = ({ image, name, ages }) => {
@@ -129,11 +129,13 @@ const Teams = ({ image, name, ages }) => {
             data-aos-once="true"
             data-aos-anchor-placement="center-bottom"
           >
-            <Image src={teamOne} alt="Busy Bees" />
-            <h2>Busy Bees - Jazz</h2>
+            <Image src={teamOne} alt="Baebees" />
+            <h2>
+              Baebees - <i>Competiton</i>
+            </h2>
             <InfoText>
               <Icon src={bee} alt="bee icon" />
-              <p>4-6 yrs old</p>
+              <p>Tiny Prep Variety</p>
             </InfoText>
           </InfoWrap>
           <InfoWrap
@@ -144,7 +146,7 @@ const Teams = ({ image, name, ages }) => {
           >
             <Image
               src={teamTwo}
-              alt="Pollinators"
+              alt="Barbees"
               css={`
                 margin-top: 80px;
                 @media screen and (max-width: 768px) {
@@ -152,10 +154,12 @@ const Teams = ({ image, name, ages }) => {
                 }
               `}
             />
-            <h2>Pollinators - Hip Hop</h2>
+            <h2>
+              Barbees - <i>Competition</i>
+            </h2>
             <InfoText>
               <Icon src={bee} alt="bee icon" />
-              <p>7-10 yrs old</p>
+              <p>Mini Elite Hip Hop</p>
             </InfoText>
           </InfoWrap>
           <InfoWrap
@@ -164,11 +168,13 @@ const Teams = ({ image, name, ages }) => {
             data-aos-once="true"
             data-aos-anchor-placement="center-bottom"
           >
-            <Image src={teamFour} alt="Bumble Bees" />
-            <h2>Bumble Bees - Hip Hop</h2>
+            <Image src={teamFour} alt="Honey Bees" />
+            <h2>
+              Honey Bees - <i>Competition</i>
+            </h2>
             <InfoText>
               <Icon src={bee} alt="bee icon" />
-              <p>7-10 yrs old</p>
+              <p>Youth Prep Hip Hop</p>
             </InfoText>
           </InfoWrap>
         </InfoRow>
@@ -181,7 +187,7 @@ const Teams = ({ image, name, ages }) => {
           >
             <Image
               src={teamThree}
-              alt="Wild Honey"
+              alt="Pollinators"
               css={`
                 margin-top: -80px;
                 @media screen and (max-width: 768px) {
@@ -189,10 +195,12 @@ const Teams = ({ image, name, ages }) => {
                 }
               `}
             />
-            <h2>Wild Honey - Variety</h2>
+            <h2>
+              Pollinators - <i>Competition</i>
+            </h2>
             <InfoText>
               <Icon src={bee} alt="bee icon" />
-              <p>8-12 yrs old</p>
+              <p>Mini Prep Hip Hop</p>
             </InfoText>
           </InfoWrap>
           <InfoWrap
@@ -201,11 +209,13 @@ const Teams = ({ image, name, ages }) => {
             data-aos-once="true"
             data-aos-anchor-placement="center-bottom"
           >
-            <Image src={teamFive} alt="MissBEEhavin" />
-            <h2>MissBEEhavin' - Variety</h2>
+            <Image src={teamFive} alt="V.I.Bees" />
+            <h2>
+              V.I.Bees - <i>Competition</i>
+            </h2>
             <InfoText>
               <Icon src={bee} alt="bee icon" />
-              <p>12-16 yrs old</p>
+              <p>Youth Co-Ed Hip Hop</p>
             </InfoText>
           </InfoWrap>
           <InfoWrap

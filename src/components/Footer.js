@@ -3,7 +3,7 @@ import { IoMdArrowRoundForward } from "react-icons/io";
 import styled, { css } from "styled-components/macro";
 import { Button } from "./Button";
 import { Link } from "react-router-dom";
-import { FaInstagram, FaFacebookF } from "react-icons/fa";
+import { FaInstagram, FaFacebookF, FaYoutube } from "react-icons/fa";
 
 const Section = styled.section`
   background: #efe337;
@@ -106,6 +106,9 @@ const Instagram = styled(FaInstagram)`
 const Facebook = styled(FaFacebookF)`
   ${Icons}
 `;
+const Youtube = styled(FaYoutube)`
+  ${Icons}
+`;
 const BookNow = styled.div`
   width: 50%;
   display: flex;
@@ -130,7 +133,7 @@ const Footer = () => {
             <h4>Contact Us</h4>
             <p> (912) 275-3764</p>
             <p>dancesavannah912@gmail.com</p>
-            <p>14045 Abercorn St Suite 11526, Savannah, Ga 31419</p>
+            <p>7805 Abercorn Street #13 Savannah, GA 31406</p>
           </FooterInfo>
           <FooterInfo>
             <h4>Sitemap</h4>
@@ -146,6 +149,9 @@ const Footer = () => {
             </Link>
             <Link to="/instagram" target="_blank">
               <Instagram />
+            </Link>
+            <Link to="/youtube" target="_blank">
+              <Youtube />
             </Link>
             <BookNow>
               <Button to="/schedule" target="_blank">
