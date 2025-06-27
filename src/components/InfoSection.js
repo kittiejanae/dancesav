@@ -48,7 +48,7 @@ const ColumnL = styled.section`
   }
 
   Button {
-    margin-right: 6rem;
+    margin-right: 2rem;
   }
 `;
 
