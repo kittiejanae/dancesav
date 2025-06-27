@@ -18,14 +18,14 @@ const thecoaches = [
   {
     name: "Ebony Clark",
     personPhoto: `${
-      require("../../images/Ebony Clark - DanceAbilities Coach.jpg").default
+      require("src/images/Ebony Clark - DanceAbilities Coach.jpg").default
     }`,
     occupation: "Dance Abilities Coach",
   },
   {
     name: "Micah Lynch",
     personPhoto: `${
-      require("../../images/Micah Lynch- Bee Company Coach - Ballet Instructor.jpg")
+      require("src/images/Micah Lynch- Bee Company Coach - Ballet Instructor.jpg")
         .default
     }`,
     occupation: "Ballet Instructor",
@@ -33,7 +33,7 @@ const thecoaches = [
   {
     name: "Tatianna Jordan",
     personPhoto: `${
-      require("../../images/Tatianna Jordan - Bee Company Coach - Ballet Instructor.jpg")
+      require("src/images/Tatianna Jordan - Bee Company Coach - Ballet Instructor.jpg")
         .default
     }`,
     occupation: "Ballet Instructor",
@@ -41,7 +41,7 @@ const thecoaches = [
   {
     name: "Bekah Kerr",
     personPhoto: `${
-      require("../../images/Bekah Kerr - Prep Team Coach - Ballet Instructor.jpg")
+      require("src/images/Bekah Kerr - Prep Team Coach - Ballet Instructor.jpg")
         .default
     }`,
     occupation: "Prep Team Coach & Ballet Instructor",
@@ -49,7 +49,7 @@ const thecoaches = [
   {
     name: "Shaquiese Little",
     personPhoto: `${
-      require("../../images/Shaquiese Little - Prep Team Coach Hip Hop & Tumbling Instructor.jpg")
+      require("src/images/Shaquiese Little - Prep Team Coach Hip Hop & Tumbling Instructor.jpg")
         .default
     }`,
     occupation: "Prep Team Coach Hip Hop & Tumbling Instructor",
@@ -57,7 +57,7 @@ const thecoaches = [
   {
     name: "Armelia Hartle",
     personPhoto: `${
-      require("../../images/Armelia Hartle- Ballet Instructor.jpg").default
+      require("src/images/Armelia Hartle- Ballet Instructor.jpg").default
     }`,
     occupation: "Ballet Instructor",
   },
@@ -71,15 +71,14 @@ const thecoaches = [
   {
     name: "Mercedes Green",
     personPhoto: `${
-      require("../../images/Mercedes Green - Hip Hop & Tumbling Instructor.jpg")
-        .default
+      require("src/images/Rebecca Derst  - Ballet Instructor.jpg").default
     }`,
     occupation: "Hip Hop & Tumbling Instructor",
   },
   {
     name: "Darrell Jordan",
     personPhoto: `${
-      require("../../images/Darrell Jordan - Studio Operations Director.jpg")
+      require("src/images/Darrell Jordan - Studio Operations Director.jpg")
         .default
     }`,
     occupation: "Studio Operations Directors",
