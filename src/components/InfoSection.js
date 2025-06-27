@@ -45,8 +45,11 @@ const ColumnL = styled.section`
   table {
     background-color: black;
     width: 70%;
+  }
+
+  tr {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   Button {
