@@ -46,7 +46,7 @@ const ColumnL = styled.section`
     background-color: black;
     width: 70%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
   }
 
   Button {
