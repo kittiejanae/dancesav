@@ -73,7 +73,8 @@ const InfoSection = ({
   pThree,
   reverse,
   image,
-  buttonLabel,
+  buttonLabel1,
+  buttonLabel2,
   link,
   target,
   delay,
@@ -94,7 +95,10 @@ const InfoSection = ({
           <p>{pTwo}</p>
           <p>{pThree}</p>
           <Button to={link} target={target} primary="true">
-            {buttonLabel}
+            {buttonLabel1}
+          </Button>
+          <Button to={link} target={target} primary="true">
+            {buttonLabel2}
           </Button>
         </ColumnL>
         <ColumnR reverse={reverse}>

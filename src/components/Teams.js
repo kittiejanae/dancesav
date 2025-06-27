@@ -6,7 +6,7 @@ import teamTwo from "../images/Barbees.JPG";
 import teamThree from "../images/Pollinators.JPG";
 import teamFour from "../images/HoneyDippers.JPG";
 import teamFive from "../images/VIBees.JPG";
-import teamSix from "../images/DS11.jpg";
+import teamSix from "../images/LilMisbeehavin.JPG";
 
 const Section = styled.section`
   width: 100%;
