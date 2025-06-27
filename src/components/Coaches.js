@@ -97,7 +97,7 @@ const PersonReview = styled.p`
 
 const thecoaches = [
   {
-    name: "Ebony Clark",
+    name: "Ebony Clarke",
     personPhoto: `${
       require("./images/Ebony Clark - DanceAbilities Coach.jpg").default
     }`,
