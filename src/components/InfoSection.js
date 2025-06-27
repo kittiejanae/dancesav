@@ -43,7 +43,11 @@ const ColumnL = styled.section`
   }
 
   table {
-    background-color: blue;
+    background-color: black;
+  }
+
+  Button {
+    margin-right: 2rem;
   }
 `;
 
