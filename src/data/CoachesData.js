@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const FooterWrapper = styled.div`
+export const CoachListWrapper = styled.div`
   width: 100%;
   height: 40vw;
   display: flex;
@@ -12,7 +12,7 @@ export const FooterWrapper = styled.div`
   padding: 0;
 `;
 
-export const FooterH1 = styled.h2`
+export const CoachListH1 = styled.h2`
   width: 100%;
   height: 10vw;
   margin: 0;
@@ -20,7 +20,7 @@ export const FooterH1 = styled.h2`
   padding: 0;
 `;
 
-export const ReviewsList = styled.ul`
+export const CoachesList = styled.ul`
   width: 80vw;
   height: 80vw;
   padding-top: 0;
@@ -38,7 +38,7 @@ export const ReviewsList = styled.ul`
   }
 `;
 
-export const Review = styled.li`
+export const Coach = styled.li`
   width: 100%;
   height: 100%;
   margin: 0;
@@ -55,7 +55,7 @@ export const Review = styled.li`
   }
 `;
 
-export const ReviewImage = styled.div`
+export const CoachImage = styled.div`
   width: 20%;
   margin: 0;
   padding: 0;
@@ -75,7 +75,7 @@ export const PersonImage = styled.img`
     -4px -4px 12px rgba(95, 80, 80, 0.5);
 `;
 
-export const ReviewText = styled.div`
+export const CoachText = styled.div`
   width: 75%;
   margin-left: 4vw;
   float: right;

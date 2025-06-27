@@ -12,7 +12,7 @@ import {
   CoachListH1,
   CoachImage,
   CoachText,
-} from "./FooterStyle";
+} from "./CoachesData";
 
 const thecoaches = [
   {
