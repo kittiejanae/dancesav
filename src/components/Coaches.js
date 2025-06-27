@@ -99,7 +99,7 @@ const thecoaches = [
   {
     name: "Ebony Clark",
     personPhoto: `${
-      require("../images/Ebony Clark - DanceAbilities Coach.jpg").default
+      require("./images/Ebony Clark - DanceAbilities Coach.jpg").default
     }`,
     occupation: "Dance Abilities Coach",
   },
