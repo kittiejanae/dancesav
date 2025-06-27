@@ -3,7 +3,7 @@ import Slider from "react-animated-slider";
 import "react-animated-slider/build/horizontal.css";
 import styled from "styled-components";
 
-export const CoachListWrapper = styled.div`
+const CoachListWrapper = styled.div`
   width: 100%;
   height: 40vw;
   display: flex;
@@ -15,7 +15,7 @@ export const CoachListWrapper = styled.div`
   padding: 0;
 `;
 
-export const CoachListH1 = styled.h2`
+const CoachListH1 = styled.h2`
   width: 100%;
   height: 10vw;
   margin: 0;
@@ -23,7 +23,7 @@ export const CoachListH1 = styled.h2`
   padding: 0;
 `;
 
-export const CoachesList = styled.ul`
+const CoachesList = styled.ul`
   width: 80vw;
   height: 80vw;
   padding-top: 0;
@@ -41,7 +41,7 @@ export const CoachesList = styled.ul`
   }
 `;
 
-export const Coach = styled.li`
+const Coach = styled.li`
   width: 100%;
   height: 100%;
   margin: 0;
@@ -58,14 +58,14 @@ export const Coach = styled.li`
   }
 `;
 
-export const CoachImage = styled.div`
+const CoachImage = styled.div`
   width: 20%;
   margin: 0;
   padding: 0;
   float: left;
 `;
 
-export const PersonImage = styled.img`
+const PersonImage = styled.img`
   border-radius: 100%;
   width: 12.5vw;
   height: 12.5vw;
@@ -78,18 +78,18 @@ export const PersonImage = styled.img`
     -4px -4px 12px rgba(95, 80, 80, 0.5);
 `;
 
-export const CoachText = styled.div`
+const CoachText = styled.div`
   width: 75%;
   margin-left: 4vw;
   float: right;
 `;
 
-export const PersonTitle = styled.h3`
+const PersonTitle = styled.h3`
   text-align: left;
   width: 100%;
   margin: 0;
 `;
-export const PersonReview = styled.p`
+const PersonReview = styled.p`
   text-align: left;
   width: 100%;
   color: black;
