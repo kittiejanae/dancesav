@@ -52,7 +52,7 @@ const ColumnL = styled.section`
     justify-content: space-evenly;
   }
 
-  Button {
+  td {
     margin-right: 2rem;
   }
 `;
