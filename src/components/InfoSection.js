@@ -49,7 +49,7 @@ const ColumnL = styled.section`
 
   tr {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
 
   Button {
