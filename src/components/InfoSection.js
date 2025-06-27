@@ -45,6 +45,8 @@ const ColumnL = styled.section`
   table {
     background-color: black;
     width: 70%;
+    display: flex;
+    justify-content: space-evenly;
   }
 
   Button {
