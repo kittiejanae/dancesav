@@ -44,7 +44,7 @@ const ColumnL = styled.section`
 
   table {
     background-color: black;
-    width: 100%;
+    width: 70%;
   }
 
   Button {
