@@ -4,7 +4,7 @@ import bee from "../images/bee.svg";
 import teamOne from "../images/Baebees.JPG";
 import teamTwo from "../images/Barbees.JPG";
 import teamThree from "../images/Pollinators.JPG";
-import teamFour from "../images/HoneyBees.JPG";
+import teamFour from "../images/HoneyDippers.JPG";
 import teamFive from "../images/VIBees.JPG";
 import teamSix from "../images/DS11.jpg";
 
@@ -135,7 +135,7 @@ const Teams = ({ image, name, ages }) => {
             </h2>
             <InfoText>
               <Icon src={bee} alt="bee icon" />
-              <p>Tiny Prep Variety</p>
+              <p>Tiny Prep Hip Hop</p>
             </InfoText>
           </InfoWrap>
           <InfoWrap
@@ -168,13 +168,13 @@ const Teams = ({ image, name, ages }) => {
             data-aos-once="true"
             data-aos-anchor-placement="center-bottom"
           >
-            <Image src={teamFour} alt="Honey Bees" />
+            <Image src={teamFour} alt="Honey Dippers" />
             <h2>
-              Honey Bees - <i>Competition</i>
+              Honey Dippers - <i>Competition</i>
             </h2>
             <InfoText>
               <Icon src={bee} alt="bee icon" />
-              <p>Youth Prep Hip Hop</p>
+              <p>DanceAbilities</p>
             </InfoText>
           </InfoWrap>
         </InfoRow>
@@ -226,7 +226,7 @@ const Teams = ({ image, name, ages }) => {
           >
             <Image
               src={teamSix}
-              alt="FaBEElous"
+              alt="Lil Misbeehavin"
               css={`
                 margin-top: -80px;
                 @media screen and (max-width: 768px) {
@@ -234,10 +234,10 @@ const Teams = ({ image, name, ages }) => {
                 }
               `}
             />
-            <h2>FaBEElous - Hip Hop</h2>
+            <h2>Lil Misbeehavin - Competition</h2>
             <InfoText>
               <Icon src={bee} alt="bee icon" />
-              <p>14-35 yrs old</p>
+              <p>Mini Elite Variety</p>
             </InfoText>
           </InfoWrap>
         </InfoRow>
