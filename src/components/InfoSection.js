@@ -19,7 +19,7 @@ const Container = styled.div`
     grid-template-columns: 1fr;
     padding: 0;
     align-items: center;
-  } ;
+  }
 `;
 
 const ColumnL = styled.section`
@@ -40,6 +40,10 @@ const ColumnL = styled.section`
   p {
     margin-bottom: 2rem;
     color: white;
+  }
+
+  table {
+    background-color: blue;
   }
 `;
 
@@ -97,14 +101,14 @@ const InfoSection = ({
           <table>
             <tr>
               <td>
-              <Button to={link} target={target} primary="true">
-                {buttonLabel1}
-              </Button>
-            </td>
-            <td>
-              <Button to={link} target={target} primary="true">
-                {buttonLabel2}
-              </Button>
+                <Button to={link} target={target} primary="true">
+                  {buttonLabel1}
+                </Button>
+              </td>
+              <td>
+                <Button to={link} target={target} primary="true">
+                  {buttonLabel2}
+                </Button>
               </td>
             </tr>
           </table>
