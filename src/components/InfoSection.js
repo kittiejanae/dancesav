@@ -94,12 +94,18 @@ const InfoSection = ({
           <p>{pOne}</p>
           <p>{pTwo}</p>
           <p>{pThree}</p>
-          <Button to={link} target={target} primary="true">
-            {buttonLabel1}
-          </Button>
-          <Button to={link} target={target} primary="true">
-            {buttonLabel2}
-          </Button>
+          <table>
+            <tc>
+              <Button to={link} target={target} primary="true">
+                {buttonLabel1}
+              </Button>
+            </tc>
+            <tc>
+              <Button to={link} target={target} primary="true">
+                {buttonLabel2}
+              </Button>
+            </tc>
+          </table>
         </ColumnL>
         <ColumnR reverse={reverse}>
           <img
