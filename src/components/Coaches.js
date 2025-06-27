@@ -64,14 +64,15 @@ const thecoaches = [
   {
     name: "Rebecca Derst",
     personPhoto: `${
-      require("../../images/Rebecca Derst  - Ballet Instructor.jpg").default
+      require("src/images/Rebecca Derst  - Ballet Instructor.jpg").default
     }`,
     occupation: "Ballet Instructor",
   },
   {
     name: "Mercedes Green",
     personPhoto: `${
-      require("src/images/Rebecca Derst  - Ballet Instructor.jpg").default
+      require("src/images/Mercedes Green - Hip Hop & Tumbling Instructor.jpg")
+        .default
     }`,
     occupation: "Hip Hop & Tumbling Instructor",
   },
