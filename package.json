@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "aos": "^2.3.4",
     "npm": "^11.4.2",
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.6.3",
