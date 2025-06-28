@@ -12,6 +12,7 @@
     "react-scripts": "^5.0.1",
     "styled-components": "^6.1.19",
     "styled-components.macro": "^1.0.0",
+    "stylis": "^4.3.6",
     "web-vitals": "^5.0.3"
   },
   "scripts": {

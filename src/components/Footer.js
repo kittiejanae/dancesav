@@ -1,6 +1,6 @@
 import React from "react";
 import { IoMdArrowRoundForward } from "react-icons/io";
-import styled, { css } from "'@linaria/react'";
+import styled, { css } from "@linaria/react";
 import { Button } from "./Button";
 import { Link } from "react-router-dom";
 import { FaInstagram, FaFacebookF, FaYoutube } from "react-icons/fa";
