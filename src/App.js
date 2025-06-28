@@ -3,7 +3,7 @@ import "./App.css";
 import Dropdown from "./components/Dropdown";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import { Switch, Route, useLocation } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import Home from "./pages";
 import About from "./pages/About";
 import OurTeams from "./pages/OurTeams";
@@ -32,7 +32,7 @@ function App() {
     <div>
       <Navbar toggle={toggle} />
       <Dropdown toggle={toggle} isOpen={isOpen} />
-      <Switch>
+      <Routes>
         <Route path="/" exact component={Home} />
         <Route path="/about" exact component={About} />
         <Route path="/teams" exact component={OurTeams} />
@@ -85,7 +85,7 @@ function App() {
             return null;
           }}
         />
-      </Switch>
+      </Routes>
       <Footer />
     </div>
   );
