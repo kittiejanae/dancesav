@@ -7,7 +7,7 @@ export const InfoData = {
   pTwo: "Our Head Coach/Founder, TySheena Jordan, has a lifetime of experience with cheer, dance, choreography, competitions and leadership. Our team of coaches is further proof of our commitment to variety and excellence. ",
   image: ImageOne,
   buttonLabel1: "Meet Our Teams",
-  buttonLabel2: "Meet Our Coaches!",
+  buttonLabel2: "Meet Our Coaches",
   reverse: false,
   delay: 100,
   link: "/teams",
