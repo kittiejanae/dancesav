@@ -1,8 +1,5 @@
 {
   "dependencies": {
     "npm": "^11.4.2"
-  },
-  "devDependencies": {
-    "react-scripts": "^0.0.0"
   }
 }
