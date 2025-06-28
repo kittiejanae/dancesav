@@ -1,5 +1,8 @@
 {
   "dependencies": {
+    "@linaria/babel-preset": "^5.0.4",
+    "@linaria/core": "^6.3.0",
+    "@linaria/react": "^6.3.0",
     "ajv": "^8.17.1",
     "aos": "^2.3.4",
     "npm": "^11.4.2",
